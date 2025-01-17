@@ -23,4 +23,6 @@ jobs:
         with:
           context: .
           push: true
-          tags: your_user/your_project:latest
+          tags: |
+            mohamedyahyadkh/myapp:latest
+            mohamedyahyadkh/myapp:v1.0.0
